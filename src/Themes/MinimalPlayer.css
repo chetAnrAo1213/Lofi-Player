@@ -1,0 +1,155 @@
+.song-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.song-name {
+  color: white;
+  font-size: 14px;
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+.rhap_volume-controls,
+.rhap_skip-button,
+.rhap_additional-controls {
+  display: none !important;
+}
+
+
+.rhap_play-pause-button {
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: transparent !important;
+  color: white !important;
+}
+
+.customAudio
+{
+    border-bottom:1px solid whitesmoke;
+     background: transparent !important;
+     cursor: pointer; 
+}
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 0; 
+  cursor: pointer; 
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+  cursor: pointer; 
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background-color: #00e4ff;
+  border: 1px solid transparent;
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.rhap_progress-section {
+  flex-grow: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 220px !important;
+  margin: 0 8px !important;  
+}
+
+.rhap_progress-bar {
+  width: 100% !important;
+  height: 4px !important;
+  background-color: hwb(0 97% 3%) !important;
+  border-radius: 4px !important;
+  position: relative !important;
+}
+
+.rhap_time {
+  color: #fdfdfd !important;
+  font-size: 15px !important;
+  font-family: 'Courier New', monospace !important;
+  padding: 0 8px !important;
+  user-select: none;
+}
+
+.rhap_progress-indicator {
+  width: 10px !important;   
+  height: 10px !important;  
+  background-color: hsl(202, 89%, 51%) !important;
+  border-radius: 50% !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 5;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.7); 
+  cursor: pointer; 
+}
+
+.can-button {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.can-icon {
+  color: white;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.can-button:active .can-icon {
+  background-color: rgb(86, 179, 196);
+  transform: scale(1.4);
+}
+.heart-button {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.heart-icon {
+  color: white;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.4s ease; 
+}
+
+.heart-icon.bounce {
+  animation: heartBounce 0.6s ease;
+  color: red; 
+}
+
+@keyframes heartBounce {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.4);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
