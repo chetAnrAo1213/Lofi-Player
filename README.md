@@ -5,8 +5,8 @@ Lofi Player is a React Web application designed to deliver a calm and immersive 
 ________________________________________________
 
 # Project Configuration
-Codebase     : Node.js (v21.6)
+Codebase     : Node.js (v21.6).
 
-FrontEnd     : React (v19)
+FrontEnd     : React (v19).
 
-Dependencies : Router-Dom (v6),ReactStrap (v9),Axios,React-Toastify,React-H5-AudioPlayer,Bootstrap-5
+Dependencies : Router-Dom (v6), ReactStrap (v9), Axios, React-Toastify, React-H5-AudioPlayer, Bootstrap-5.
