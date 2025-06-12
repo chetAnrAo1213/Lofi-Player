@@ -40,8 +40,8 @@ function LofiSideBar()
     Mylesxiety: "Mylesxiety",
   };
 
-  const username = "chetAnrAo7";
-  const repo = "LofiPlayer-Data";
+  const username = "";
+  const repo = "";
 
   const [data, setData] = useState([]);
   const [userFav, setUserFav] = useState([]);
