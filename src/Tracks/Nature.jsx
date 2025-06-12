@@ -13,39 +13,39 @@ function Nature()
       const song = currentSong.toLowerCase();
       if(song.includes("beach"))
       {
-         setVideoUrl("/videos/Beach.mp4");
+         setVideoUrl("");
       }
        if(song.includes("rain"))
       {
-         setVideoUrl("/videos/Rain.mp4");
+         setVideoUrl("");
       }
        if(song.includes("wind"))
       {
-         setVideoUrl("/videos/wind.mp4");
+         setVideoUrl("");
       }
        if(song.includes("train"))
       {
-       setVideoUrl("/videos/Train.mp4");
+       setVideoUrl("");
       }
       if(song.includes("restaurant"))
       {
-        setVideoUrl("/videos/restraurant.mp4");
+        setVideoUrl("");
       }
        if(song.includes("campfire"))
       {
-       setVideoUrl("/videos/campfire.mp4");
+       setVideoUrl("");
       }
        if(song.includes("thunderstorm"))
       {
-         setVideoUrl("/videos/Thunderstorm.mp4");
+         setVideoUrl("");
       }
        if(song.includes("car"))
       {
-       setVideoUrl("/videos/Cars.mp4");
+       setVideoUrl("");
       }
        if(song.includes("birds"))
       {
-        setVideoUrl("/videos/birds.mp4");
+        setVideoUrl("");
       }
     }
   }, [currentSong]); 
