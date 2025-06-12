@@ -28,7 +28,7 @@ function Home()
 </div>
             
         
-        <video src="https://raw.githubusercontent.com/chetAnrAo7/LofiPlayer-Data/main/CoverPageVideo/LofiCoverPage.mp4"
+        <video src=""
                    autoPlay loop playsInline 
                    style={{position: "fixed",top: 0,left: 0,width: "100vw",height: "100vh",objectFit: "cover",zIndex: -1,}}/>
  </>);
